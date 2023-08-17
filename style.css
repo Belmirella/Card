@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Neonderthaw&family=Poppins:wght@100&family=Righteous&family=Roboto:wght@300;400;700&family=Sarala:wght@400;700&family=Titillium+Web:ital,wght@0,700;1,300&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: #fe2b87;
+}
+.content{
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+width: 100%;
+height: 100vh;
+}
+.card{
+    background: #fff;
+    border-radius: 20px; 
+    box-shadow: 0px 2px 23px #26395354;
+    width: 500px;
+    
+}
+.mediaCard{
+   background: url("https://deliriumnerd.com/wp-content/uploads/2020/08/Sussurros-do-Cora%C3%A7%C3%A3o_Colagem-por-Isabelle-Sim%C3%B5es_DELIRIUM-NERD.jpg") center/cover; 
+height: 200px;
+width: 100%;
+}
+.title{
+    color: #fe2b87;
+}
+.secondText{
+    color: #828fa1;
+}
+.bottomText{
+    color: #828fa1;
+}
+.topCard{
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottomCard{
+    padding: 20px;
+}
+.action{
+    background: none;
+    border: none;
+    color: purple;
+}
+
+@media(max-width:574px)
+{
+    body{
+    
+        background-color: aqua;
+    }
+    .mediaCard{
+        width: 100%
+    }
+    .bottomText{
+        display: none;
+    }
+}
+@media(max-width:520px)
+{
+.mediaCard{
+    width: 100%;
+}
+.card{
+    width: 400px 
+}
+}
